@@ -11,8 +11,8 @@ var number3;
 const number3box = document.getElementById("number3");
 
 function randomise(){
-    var number1 = Math.round(Math.random()*100);
-    var number2 = Math.round(Math.random()*100);
+     number1 = Math.round(Math.random()*100);
+     number2 = Math.round(Math.random()*100);
 
     if (number1 < number2){
         var extra = number1;
